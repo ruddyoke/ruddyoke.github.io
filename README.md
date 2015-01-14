@@ -1,6 +1,6 @@
 ruddyoke.github.io
 ==================
 
-Page for my profil and my all public project.
+Page for my profil and my all publics projects.
 
-Come to see.
+Come to see and leave feedbacks.
