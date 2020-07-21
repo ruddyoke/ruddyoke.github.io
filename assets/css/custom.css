@@ -121,7 +121,7 @@ html {
 	margin-bottom: 0;
 }
 
-.slick-slide img {
+.brand-area .slick-slide img {
 	filter: grayscale(1);
 	max-height: 100px;
 	max-width: 150px;
@@ -148,10 +148,19 @@ html {
 	.logo img {
 		height: 60px;
 	}
+
+	#skills, #projects {
+		padding: 100px 0;
+	}
+
+	.footer-padding {
+		padding: 100px 0;
+	}
 }
 
-@media only screen and (max-width: 1600px) and (min-width: 1200px) {
+@media only screen and /*(max-width: 1600px) and */(min-width: 1200px) {
 	.section-padding2 {
-		padding-bottom: 0;
+		padding-top: 100px;
+		padding-bottom: 50px;
 	}
 }

@@ -31,8 +31,14 @@ class RokeMenu {
 	setClosetClose() {
 		if (window.matchMedia("(max-width: 991px)").matches) {
 			$(document).on("click", (e) => {
-				if($(e.target).closest(this.menu_resp).length === 0) {
-					this.menu_resp_btn.trigger('click');
+				if($('.slicknav_nav[aria-hidden="false"]').length)
+				{
+					if($(e.target).closest(this.menu_resp_items).length === 1) {
+						this.menu_resp_btn.trigger('click');
+					}
+					else if($(e.target).closest(this.menu_resp).length === 0) {
+						this.menu_resp_btn.trigger('click');
+					}
 				}
 			});
 		}
