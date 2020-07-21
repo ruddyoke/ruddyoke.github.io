@@ -1,142 +1,625 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="zxx">
 <head>
-  <!-- Standard Meta -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title> Internet Service</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--    <link rel="manifest" href="site.webmanifest">-->
+<!--    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">-->
+    <link rel="shortcut icon" type="image/png" href="assets/img/logo/roke-ico.png">
 
-  <!-- Site Properities -->
-  <title>Accueil</title>
-
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
-
-  <link rel="stylesheet" type="text/css" href="public/semantic/css/semantic.css">
-  <link rel="stylesheet" type="text/css" href="public/css/style.css">
-
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
-  <script src="public/semantic/javascript/semantic.js"></script>
-  <script src="public/js/core.js"></script>
-
+	<!-- CSS here -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/progressbar_barfiller.css">
+    <link rel="stylesheet" href="assets/css/gijgo.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/animated-headline.css">
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="assets/css/themify-icons.css">
+	<link rel="stylesheet" href="assets/css/slick.css">
+	<link rel="stylesheet" href="assets/css/nice-select.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
 </head>
-<body id="home">
-  <div class="ui inverted page grid masthead segment">
-    <div class="column">
-      <div class="inverted secondary pointing ui menu">
-        <div class="header item">Ruddy lodonou oke</div>
-        <div class="right menu">
-          <div class="ui top right pointing mobile dropdown link item">
-            Menu
-            <i class="dropdown icon"></i>
-            <div class="menu">
-              <a class="item">Mes Projets</a>
-              <a class="item" href="./page/about_me.html">A propos</a>
+<body>
+    <!-- ? Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+<!--                    <img src="assets/img/logo/loder.png" alt="">-->
+                    <img src="assets/img/logo/roke.png" alt="">
+                </div>
             </div>
-          </div>
-          
-          <a class="item">Mes Projets</a>
-          <a class="item" href="./page/about_me.html">A propos</a>
         </div>
-      </div>
-      
-      <img src="public/images/roke.png" class="circular ui image" id="h_avatar">
-      <div class="ui hidden transition information">
-        <div id="h_h_avatar">
-          <h1 class="ui inverted header">
-          Le jedi qui maîtrise la force du code.
-          </h1>
-          <p>Retouver tous mes projets publics en détails.</p>
-        </div>
-      </div>
-
     </div>
-  </div>
-  <div class="ui page grid overview segment">
-    <div class="ui two wide column"></div>
-    <div class="twelve wide column">
-      <div class="ui three column center aligned stackable divided grid">
-        <div class="column">
-          <div class="ui icon header">
-            <i class="circular book link icon"></i>
-            StringClass
-          </div>
-          <p>Service Wrapper to String functions.</p>
-          <p><a class="ui teal right labeled icon button" href="./page/stringclass.html"> Plus <i class="right long arrow icon"></i></a></p>
-        </div>
-        <div class="column">
-          <div class="ui icon header">
-            <i class="circular code link icon"></i>
-            LdapProviderService
-          </div>
-          <p>An OpenLdap provider service for PHP.</p>
-          <p><a class="ui teal right labeled icon button" href="#">Plus <i class="right long arrow icon"></i></a></p>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-
-  <div class="ui inverted page grid stackable relaxed feature segment" style="background-color: darkgray;">
-
-  </div>
-
-  <div class="ui page grid stackable segment">
-    <div class="row">
-      <div class="column">
-        <h1 class="center aligned ui header">
-          Suivez moi sur Réseaux Sociaux. 
-        </h1>
-        <div class="ui horizontal divider"><i class="heart icon"></i></div>
-      </div>
-    </div>
-    <div class="center four column aligned row">
-      <div class="column">
-        <div class="ui text shape">
-          <div class="sides">
-            <div class="active side">
-              <i class="huge circular github icon"></i>
+    <!-- Preloader Start -->
+    <header>
+        <!-- Header Start -->
+        <div class="header-area header-transparent">
+            <div class="main-header ">
+                <div class="header-top d-none d-lg-block">
+                    <div class="container-fluid">
+                        <div class="col-xl-12">
+                            <div class="row d-flex justify-content-between align-items-center">
+                                <div class="header-info-left d-flex">
+                                    <ul>
+                                        <li>lruddy3@hotmail.fr</li>
+                                    </ul>
+                                    <div class="header-social">
+                                        <ul>
+                                            <li><a href="https://www.linkedin.com/in/ruddy-lodonou-oke-b323b215a/"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom  header-sticky">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <!-- Logo -->
+                            <div class="col-xl-2 col-lg-2">
+                                <div class="logo">
+                                    <a href="index.html"><img src="assets/img/logo/roke.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-10 col-lg-10">
+                                <div class="menu-wrapper  d-flex align-items-center justify-content-end">
+                                    <!-- Main-menu -->
+                                    <div class="main-menu d-none d-lg-block">
+                                        <nav>
+                                            <ul id="navigation">
+                                                <li><a href="index.html">Accueil</a></li>
+                                                <li><a href="index.html#about">Une Passion</a></li>
+                                                <li><a href="index.html#skills">Compétences</a></li>
+                                                <li><a href="index.html#contact">Contact</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <!-- Header-btn -->
+                                    <div class="header-right-btn d-none d-lg-block ml-30">
+                                        <a href="#projects" class="btn header-btn">Mes Projets</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Mobile Menu -->
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="side">
-              <i class="huge circular facebook icon"></i>
-            </div>
-          </div>
         </div>
-      </div>
-      
-      <div class="column">
-        <div class="ui text shape">
-          <div class="sides">
-            <div class="side">
-              <i class="huge circular github icon"></i>
+        <!-- Header End -->
+    </header>
+    <!-- header end -->
+    <main>
+    <!-- slider Area Start-->
+    <div class="slider-area">
+        <div class="slider-active">
+            <!-- Single Slider -->
+            <div class="single-slider slider-height d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-7 col-lg-6 col-md-8 col-sm-10">
+                            <div class="hero__caption">
+                                <h1 data-animation="fadeInUp" data-delay=".4s">Ruddy LODONOU OKE</h1>
+                                <p data-animation="fadeInUp" data-delay=".6s" class="hero__caption_sub_title">Le jedi qui maîtrise la force du code.</p>
+                                <div data-animation="fadeInUp" data-delay=".6s" class="hero__caption_img_wrapper">
+                                    <img src="assets/img/hero/lightsabers.png" alt="lightsabers">
+                                </div>
+                                <!-- Hero-btn -->
+                                <div class="hero__btn">
+                                    <a href="#projects" class="btn hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Voir mes projets</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="active side">
-              <i class="huge circular facebook icon"></i>
+        </div>
+    </div>
+    <!-- slider Area End-->
+    <!--? About 1 Start-->
+    <section id="about" class="about-low-area section-padding2">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-xl-5 col-lg-6 col-md-9">
+                    <!-- about-img -->
+                    <div class="about-img">
+                        <img src="assets/img/gallery/about1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-10">
+                    <div class="about-caption mb-50">
+                        <!-- Section Tittle -->
+                        <div class="section-tittle mb-35">
+                            <span></span>
+                            <h2>Une passion.</h2>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p> -->
+                        </div>
+                        <p>Passionné par l'univers du web depuis plus de 10 ans, mon expérience m'a amenée à évoluer dans une grande variété d'environnements de travail, à travailler avec des ingénieurs de production, des designers et des spécialistes du marketing. <br>
+                            Ce que j'aime c'est l'étude, l'analyse et la conception.</p>
+                    </div>
+                    <a href="#projects" class="btn" >Voir mes projets</a>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="ui inverted teal page grid segment">
-    <div class="ten wide column">
-      <div class="ui three column stackable grid">
-        <div class="column">
-          <div class="ui header">Projets</div>
-          <div class="ui inverted link list">
-            <a class="item">StringClass</a>
-            <a class="item">LdapProviderService</a>
-            <a class="item">csvSpliter</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="six wide right floated aligned column">
-      <h3 class="ui header">Contact</h3>
-      <p>
-      lruddy33@gmail.com
-      </p>
-    </div>
-  </div>
-</body>
+    </section>
+    <!-- About  End-->
+     <!--? service Area Start -->
+     <section id="skills" class="service-area section-padding2 pb-bottomXXX">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-12">
+                    <!-- Section Tittle -->
+                    <div class="section-tittle section-tittle2 mb-50">
+                        <h2 class="mb-35">Mes compétences</h2>
+                    </div>
+                    <div class="row domaines-competences">
+                        <div class="col-lg-6">
+                            <ul>
+                                <li>
+                                    <h3>GESTION DE PROJETS WEB</h3>
+                                    <p>Site vitrine, corporate, évènementiel, e-commerce, intranet, application mobile.</p>
+                                </li>
+                                <li>
+                                    <h3>CONCEPTION GRAPHIQUE & WEBDESIGN</h3>
+                                    <p>Templates Web</p>
+                                </li>
+                                <li>
+                                    <h3>APPLICATIONS SPÉCIFIQUES ET INTERFACE D'ADMINISTRATION</h3>
+                                    <p>PHP - MYSQL - JAVASCRIPT - SQL - C</p>
+                                </li>
+                                <li>
+                                    <h3>CMS / INSTALLATION / MISE A JOUR</h3>
+                                    <p>Prestashop - Wordpress</p>
+                                </li>
+                                <li>
+                                    <h3>INTÉGRATION (X)HTML / CSS</h3>
+                                    <p>Développement from scratch</p>
+                                </li>
+                                <li>
+                                    <h3>CRÉATION DES PAGES WEB INTERACTIVES AVEC JAVASCRIPT</h3>
+                                    <p>jQuery - Angular - ReatJS</p>
+                                </li>
+                                <li>
+                                    <h3>CONCEPTION MULTI-PLATEFORME</h3>
+                                    <p>Compatible tous supports, tablette & application mobile</p>
+                                </li>
+                            </ul>
+                        </div>
 
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-4 col-sm-6 col-6">
+                                    <div class="single-services single-services--hover-light mb-30 text-center">
+                                        <img src="assets/img/skills/laravel.svg.png" alt="laravel">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-4 col-sm-6 col-6">
+                                    <div class="single-services mb-30 text-center">
+                                        <img src="assets/img/skills/php.png" alt="php">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-4 col-sm-6 col-6">
+                                    <div class="single-services mb-30 text-center">
+                                        <img src="assets/img/skills/prestashop.png" alt="prestashop">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-4 col-sm-6 col-6">
+                                    <div class="single-services single-services--hover-light mb-30 text-center">
+                                        <img src="assets/img/skills/mysql.svg.png" alt="mysql">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-4 col-sm-6 col-6">
+                                    <div class="single-services mb-30 text-center">
+                                        <img src="assets/img/skills/logo_html_css_js.svg" alt="html_css_js">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-4 col-sm-6 col-6">
+                                    <div class="single-services mb-30 text-center">
+                                        <img src="assets/img/skills/wordpress-logo.svg" alt="wordpress">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service Area End -->
+    <!--? Pricing Card Start -->
+    <section class="d-none pricing-card-area section-padding2">
+        <div class="container">
+            <!-- Section Tittle -->
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-8 col-md-10 col-sm-10">
+                    <div class="section-tittle text-center mb-100">
+                        <p>Our pricing plan for you</p>
+                        <h2>No hidden charges! choose  your plan wisely.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
+                    <div class="single-card text-center mb-30">
+                        <div class="card-top">
+                            <p>Single Package</p>
+                            <h4>Only Broadband connection</h4>
+                        </div>
+                        <div class="card-mid">
+                            <h4>$20.00 <span>/ mo</span></h4>
+                        </div>
+                        <div class="card-bottom">
+                            <ul>
+                                <li>Line Rental Included</li>
+                                <li>12 Month Contract</li>
+                                <li>No Activation Charges</li>
+                                <li>Up to 12Mbps average Speed</li>
+                                <li>Enjoy family on weekends</li>
+                            </ul>
+                            <a href="#" class="borders-btn">View Packages</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
+                    <div class="single-card text-center mb-30">
+                        <div class="card-top">
+                            <p>Half Package</p>
+                            <h4>Broadband & TV connection</h4>
+                        </div>
+                        <div class="card-mid">
+                            <h4>$25.00 <span>/ mo</span></h4>
+                        </div>
+                        <div class="card-bottom">
+                            <ul>
+                                <li>Line Rental Included</li>
+                                <li>12 Month Contract</li>
+                                <li>No Activation Charges</li>
+                                <li>Up to 12Mbps average Speed</li>
+                                <li>Enjoy family on weekends</li>
+                            </ul>
+                            <a href="#" class="borders-btn">View Packages</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
+                    <div class="single-card text-center mb-30">
+                        <div class="card-top">
+                            <p>Full  Package</p>
+                            <h4>TV, Broadband And Phone</h4>
+                        </div>
+                        <div class="card-mid">
+                            <h4>$29.00 <span>/ mo</span></h4>
+                        </div>
+                        <div class="card-bottom">
+                            <ul>
+                                <li>Line Rental Included</li>
+                                <li>12 Month Contract</li>
+                                <li>No Activation Charges</li>
+                                <li>Up to 12Mbps average Speed</li>
+                                <li>Enjoy family on weekends</li>
+                            </ul>
+                            <a href="#" class="borders-btn">View Packages</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pricing Card End -->
+    <!-- Latest Offers Start -->
+    <div class="d-none latest-wrapper">
+        <div class="container">
+            <div class="latest-area latest-height  section-bg2" data-background="assets/img/gallery/section_bg01.png">
+                <div class="row  align-items-center justify-content-between">
+                    <div class="col-xl-5 col-lg-7">
+                        <div class="latest-caption">
+                            <h2>Check our unbelievable super  fast Broadband availability in your area.</h2>
+                        </div>
+                    </div>
+                     <div class="col-xl-5 col-lg-5 col-md-10 ">
+                        <div class="latest-subscribe">
+                            <form action="#">
+                                <input type="email" placeholder="Enter Zipcode">
+                                <button>Check Now</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Latest Offers End -->
+    <!--? About-2 Area Start -->
+    <section class="d-none about-area2 testimonial-area section-padding30 fix">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class=" col-lg-6 col-md-9 col-sm-9">
+                    <div class="about-caption">
+                        <!-- Section Tittle -->
+                        <div class="section-tittle mb-55">
+                            <h2>What our clint think about us!</h2>
+                        </div>
+                        <!-- Testimonial Start -->
+                        <div class="h1-testimonial-active">
+                            <!-- Single Testimonial -->
+                            <div class="single-testimonial">
+                                <div class="testimonial-caption">
+                                    <p>Brook presents your services with flexible, convenient and cdpose layouts. You can select your favorite layouts & elements for cular ts with unlimited ustomization possibilities. Pixel-perfect replica;ition of thei designers ijtls intended csents your se.</p>
+                                    <div class="rattiong-caption">
+                                        <span>Jhon Smith<span>Gym Trainer</span> </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Testimonial -->
+                            <div class="single-testimonial">
+                                <div class="testimonial-caption">
+                                    <p>Brook presents your services with flexible, convenient and cdpose layouts. You can select your favorite layouts & elements for cular ts with unlimited ustomization possibilities. Pixel-perfect replica;ition of thei designers ijtls intended csents your se.</p>
+                                    <div class="rattiong-caption">
+                                        <span>Jhon Smith<span>Gym Trainer</span> </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial End -->
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-11 col-sm-11">
+                    <!-- about-img -->
+                    <div class="about-img2">
+                        <img src="assets/img/gallery/about2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About-2 Area End -->
+    <!--? Blog Area Start -->
+    <section id="projects" class="home-blog-area section-padding30">
+        <div class="container">
+            <!-- Section Tittle -->
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-8 col-md-10 col-sm-10">
+                    <div class="section-tittle text-center mb-3">
+                        <h2>Mes Projets</h2>
+                        <span>Une partie des projets sur lesquels j'ai travaillé.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="home-blog-single mb-30">
+                        <a href="https://www.tetrapak.com/fr" class="blog-img-cap" rel="nofollow" target="_blank">
+                            <div class="blog-img">
+                                <img src="assets/img/projects/tetrapak.png" alt="">
+                            </div>
+                            <div class="blog-cap">
+                                <h3>Tetra Pak</h3>
+                                <p>Suivi de la production</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="home-blog-single mb-30">
+                        <a href="https://www.vaovert.fr/" class="blog-img-cap" rel="nofollow" target="_blank">
+                            <div class="blog-img">
+                                <img src="assets/img/projects/vaovert.jpg" alt="">
+                            </div>
+                            <div class="blog-cap">
+                                <h3>Vaovert</h3>
+                                <p>Système de Réservation</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="home-blog-single mb-30">
+                        <a href="https://www.vetocanis.com/fr/" class="blog-img-cap" rel="nofollow" target="_blank">
+                            <div class="blog-img">
+                                <img src="assets/img/projects/vetocanis.jpg" alt="">
+                            </div>
+                            <div class="blog-cap">
+                                <h3>Vetocanis</h3>
+                                <p>Site e-commerce</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-none">
+                    <div class="home-blog-single mb-30">
+                        <div class="blog-img-cap">
+                            <div class="blog-img">
+                                <img src="assets/img/gallery/home-blog2.png" alt="">
+                            </div>
+                            <div class="blog-cap">
+                                <h3><a href="blog_details.html">The purpose of lolght invera jgrlie.</a></h3>
+                                <p>January 22, 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-none">
+                    <div class="home-blog-single mb-30">
+                        <div class="blog-img-cap">
+                            <div class="blog-img">
+                                <img src="assets/img/gallery/home-blog3.png" alt="">
+                            </div>
+                            <div class="blog-cap">
+                                <h3><a href="blog_details.html">The purpose of lolght invera jgrlie.</a></h3>
+                                <p>January 22, 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Area End -->
+    </main>
+    <footer>
+        <!--? Footer Start-->
+        <div class="footer-area section-bg" data-background="assets/img/gallery/footer_bg.png">
+            <div class="container">
+                 <!-- Brand Area Start -->
+                <div class="brand-area pt-25 pb-30">
+                    <div class="container">
+                        <div class="brand-active brand-border pt-50 pb-40">
+                            <div class="single-brand">
+                                <img src="assets/img/gallery/tetrapak.png" alt="">
+                            </div>
+                            <div class="single-brand">
+                                <img src="assets/img/gallery/vaovert.png" alt="">
+                            </div>
+                            <div class="single-brand">
+                                <img src="assets/img/gallery/filab.png" alt="">
+                            </div>
+                            <div class="single-brand">
+                                <img src="assets/img/gallery/vetocanis.png" alt="">
+                            </div>
+                            <div class="single-brand">
+                                <img src="assets/img/gallery/helite.png" alt="">
+                            </div>
+                            <div class="single-brand">
+                                <img src="assets/img/gallery/bramatek.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Brand Area End -->
+                <div class="footer-top footer-padding">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-lg-4 col-md-5 col-sm-8">
+                            <div id="contact" class="single-footer-caption mb-50">
+                                <!-- logo -->
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="assets/img/logo/roke.png" alt=""></a>
+                                </div>
+                                <div class="footer-tittle">
+                                    <div class="footer-pera">
+                                        <p class="info1">Le jedi qui maîtrise la force du code.</p>
+                                    </div>
+                                </div>
+                                <div class="footer-number">
+                                    <p>lruddy3@hotmail.fr</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-3 col-sm-5">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Mes Compétences</h4>
+                                    <ul>
+                                        <li><a href="#">Laravel</a></li>
+                                        <li><a href="#"> PHP</a></li>
+                                        <li><a href="#">Prestashop</a></li>
+                                        <li><a href="#">SQL</a></li>
+                                        <li><a href="#">HTML / CSS / JS</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-3 col-sm-5">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Mes Projets</h4>
+                                    <ul>
+                                        <li><a href="#">Tetra Pak</a></li>
+                                        <li><a href="#">Vaovert</a></li>
+                                        <li><a href="#">Weldom</a></li>
+                                        <li><a href="#">Filab</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-xl-9 col-lg-8">
+                            <div class="footer-copy-right">
+                                <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script></p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4">
+                            <!-- Footer Social -->
+                            <div class="footer-social f-right">
+<!--                                <a href="#"><i class="fab fa-twitter"></i></a>-->
+<!--                                <a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>-->
+                                <a href="./index.html"><i class="fas fa-globe"></i></a>
+                                <a href="mailto:lruddy3@hotmail.fr"><i class="fas fa-envelope"></i></a>
+<!--                                <a href="#"><i class="fab fa-instagram"></i></a>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+    </footer>
+
+    <!-- Scroll Up -->
+    <div id="back-top" >
+        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+    </div>
+
+    <!-- JS here -->
+
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <!-- One Page, Animated-HeadLin -->
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/animated.headline.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+    <!-- Date Picker -->
+    <script src="./assets/js/gijgo.min.js"></script>
+    <!-- Nice-select, sticky -->
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
+    <script src="./assets/js/jquery.sticky.js"></script>
+    <!-- Progress -->
+    <script src="./assets/js/jquery.barfiller.js"></script>
+
+    <!-- counter , waypoint,Hover Direction -->
+    <script src="./assets/js/jquery.counterup.min.js"></script>
+    <script src="./assets/js/waypoints.min.js"></script>
+    <script src="./assets/js/jquery.countdown.min.js"></script>
+    <script src="./assets/js/hover-direction-snake.min.js"></script>
+
+    <!-- contact js -->
+<!--    <script src="./assets/js/contact.js"></script>-->
+<!--    <script src="./assets/js/jquery.form.js"></script>-->
+<!--    <script src="./assets/js/jquery.validate.min.js"></script>-->
+<!--    <script src="./assets/js/mail-script.js"></script>-->
+    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+
+    <!-- Jquery Plugins, main Jquery -->
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+    <script src="./assets/js/custom.js"></script>
+
+    </body>
 </html>
