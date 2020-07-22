@@ -133,6 +133,11 @@ html {
 	justify-content: center;
 }
 
+.brand-area .slick-initialized .slick-slide {
+	display: flex;
+	justify-content: center;
+}
+
 @media (max-width: 575px){
 	.hero__caption {
 		width: 75%;
